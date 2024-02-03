@@ -1,0 +1,51 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover;
+    background-image: url(/images/nnneon.svg);
+}
+
+:root {
+    --main-color-one: #1F2544;
+    --main-color-two: #474F7A;
+    --main-color-thre:#81689D;
+    --main-color-four:#FFD0EC;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header .photo img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 40px;
+    left: 44%;
+    border-radius: 50%;
+}
+
+.text-center .row .card-icon i {
+    color: var(--main-color-one);
+    font-size: 50px;
+}
+
+.text-center .row h4 {
+    color: var(--main-color-thre);
+}
+
+.text-center {
+    padding-top: 10%;
+}
